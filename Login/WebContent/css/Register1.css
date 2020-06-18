@@ -1,0 +1,190 @@
+@charset "ISO-8859-1";
+
+
+.mybody
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial bold;
+	background-color: teal;
+}
+
+.nk
+{
+	width: 380px;
+	height: 380px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-shadow: 0 0 20px black;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.nk h1
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: absolute;
+	left: 60px;
+  	top: 10px;
+  	font-size: 35px;
+}
+
+.nk input[type = "text"],.nk input[type = "password"]
+{
+	border: 0;
+	background: #dce3e6;
+	display: block;
+	margin: 8px auto;
+	text-align: center;
+	border: 1px solid navy;
+	padding: 18px 14px;
+	width: 200px;
+	height: 35px;
+	outline: none;
+	border-radius: 6px;
+	transiton: 0.25s;
+	position: relative;
+	top: 25px;
+	color: black;
+}
+
+.nk input[type = "text"]:focus, .nk input[type = "password"]:focus
+{
+	width: 300px;
+	border-color: black;
+	background: #8499a3;
+	color: white;
+}
+
+
+.nk input[type = "submit"]
+{
+	border: 0;
+	background: #356278;
+	display: inline;
+	margin: 4px auto;
+	text-align: center;
+	border: 2px solid #458499;
+	padding: 8px 12px;
+	outline: none;
+	color: white;
+	border-radius: 0px;
+	transiton: 0.25s;
+	cursor: pointer;
+	position: relative;
+	top: 35px;
+}
+
+.nk input[type = "submit"]:hover 
+{
+	background: teal;
+	box-shadow: 0 0 10px #ffffff;
+	letter-spacing: 3px;
+	color: white !important;
+}
+
+.error
+{
+	margin-top: 30px;
+	text-align: center;	
+	font-size: 19px;
+	color: red;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	width: 350px;
+}
+
+
+/*----------------------Media Query-------------------*/
+
+@media(min-width: 992px)
+{
+	
+}
+
+@media(min-width: 768px)and(max-width: 991px)
+{
+	
+}
+
+@media(min-width: 575px)and(max-width: 767px)
+{
+	
+}
+
+@media(min-width: 460px)and(max-width: 574px)
+{
+
+	
+}
+
+@media(max-width: 479px)
+{
+	.nk
+	{
+		width: 330px;
+		height: 380px;
+		padding: 40px;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		background-color: white;
+		box-shadow: 0 0 20px black;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+	}
+	
+	.nk h1
+	{
+		left: 35px;
+  		top: 8px;
+  		font-size: 35px;
+	}
+	
+	.nk input[type = "text"],.nk input[type = "password"]
+	{
+		width: 200px;
+		margin: 8px auto;
+		text-align: center;
+		padding: 8px 14px;
+		height: 35px;
+		top: 15px;
+	}
+	
+	.nk input[type = "text"]:focus,.nk input[type = "password"]:focus
+	{
+		width: 280px;
+		left: -15px;
+	}
+	
+	.nk input[type = "submit"]
+	{
+		top: 20px;
+	}
+	
+	.error
+	{	
+	margin-top: 30px;
+	text-align: center;	
+	font-size: 17px;
+	color: red;
+	position: absolute;
+	bottom: 5px;
+	left: -10px;
+	width: 350px;
+	}
+	
+	.nav-link
+	{
+		text-align: center;
+		margin-right: -15px;
+	}
+	
+}

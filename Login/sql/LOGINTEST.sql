@@ -1,0 +1,5 @@
+CREATE TABLE `login`.`logintest` (
+  `USERID` VARCHAR(50) NULL ,
+  `USERNAME` VARCHAR(50) NULL ,
+  `PASSWORD` VARCHAR(50) NULL
+  );

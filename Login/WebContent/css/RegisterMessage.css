@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+/*              Register Message         */
+
+.mybody
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial bold;
+	background-color: teal;
+}
+
+.container h2
+{
+	position: absolute;
+	top: 15%;
+	left: 32%;
+	font-size: 50px;
+	color:  cyan;
+}
+
+.container a
+{
+	position: absolute;
+	top: 38%;
+	left: 43%;
+	color: black;
+	font-size: 25px;
+	color: white;
+}
+
+.container a:hover
+{
+	position: absolute;
+	top: 38%;
+	left: 40%;
+	color: black;
+	font-size: 35px;
+	color: white;
+}
+
+
+/*              Login Message         */
+
+.container h3
+{
+	position: absolute;
+	top: 5%;
+	left: 37%;
+	font-size: 60px;
+	color:  teal;
+}
+
+.container h4
+{
+	position: absolute;
+	top: 25%;
+	left: 41%;
+	font-size: 50px;
+	color: olive;
+}
